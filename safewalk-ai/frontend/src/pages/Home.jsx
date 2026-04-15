@@ -19,7 +19,7 @@ export default function Home() {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-8 animate-slide-up">
-            Predict Crime <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-primary-600">Before</span> It Happens
+            Predict Crime Before It Happens
           </h1>
           
           <p className="text-xl text-slate-400 max-w-3xl mb-10 animate-slide-up" style={{animationDelay: '0.1s'}}>
