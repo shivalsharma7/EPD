@@ -73,12 +73,12 @@ export default function LiveDemo() {
                className="w-full h-full object-cover opacity-90"
              />
              {/* Mock AI Bounding Boxes overlay */}
-             <div className="absolute top-[20%] left-[30%] w-32 h-48 border-2 border-primary-500 rounded relative group">
+             {/* <div className="absolute top-[20%] left-[30%] w-32 h-48 border-2 border-primary-500 rounded relative group">
                 <span className="absolute -top-6 left-0 bg-primary-500 text-xs px-2 py-0.5 rounded text-white font-mono">Person 98%</span>
              </div>
              <div className="absolute top-[30%] left-[60%] w-24 h-40 border-2 border-emerald-500 rounded">
                 <span className="absolute -top-6 left-0 bg-emerald-500 text-xs px-2 py-0.5 rounded text-white font-mono">Person 92%</span>
-             </div>
+             </div> */}
              
              {/* Status overlay */}
              <div className="absolute bottom-4 left-4 bg-dark/80 backdrop-blur px-3 py-1.5 rounded-lg border border-white/10 text-xs font-mono text-white flex items-center gap-2">
