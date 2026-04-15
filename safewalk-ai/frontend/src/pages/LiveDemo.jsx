@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { io } from 'socket.io-client';
 import { AlertTriangle, MapPin, Navigation, Activity } from 'lucide-react';
 
-const MOCK_VIDEO_URL = "https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/720/Big_Buck_Bunny_720_10s_1MB.mp4";
+const MOCK_VIDEO_URL = "http://localhost:8000/stream";
 
 export default function LiveDemo() {
   const [alerts, setAlerts] = useState([]);
@@ -66,12 +66,11 @@ export default function LiveDemo() {
         {/* Video Player (Mock) */}
         <div className="lg:col-span-2">
           <div className="relative rounded-2xl overflow-hidden border border-white/10 bg-black aspect-video flex items-center justify-center">
-             <video 
+             {/* Use an img tag for MJPEG streams instead of video tag */}
+             <img 
                src={MOCK_VIDEO_URL} 
-               autoPlay 
-               loop 
-               muted 
-               className="w-full h-full object-cover opacity-80"
+               alt="Live AI Feed"
+               className="w-full h-full object-cover opacity-90"
              />
              {/* Mock AI Bounding Boxes overlay */}
              <div className="absolute top-[20%] left-[30%] w-32 h-48 border-2 border-primary-500 rounded relative group">
