@@ -22,7 +22,7 @@ export default function Navbar() {
         <div className="flex justify-between h-20 items-center">
           <div className="flex items-center gap-2">
             <Shield className="h-8 w-8 text-primary-500" />
-            <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-primary-400">
+            <span className="text-xl font-bold bg-clip-text text-transparent">
               SafeWalk AI
             </span>
           </div>
