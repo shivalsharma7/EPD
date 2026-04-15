@@ -25,7 +25,7 @@ export default function Technology() {
 
             <div className="hidden md:block w-8 h-1 bg-gradient-to-r from-slate-600 to-primary-500 rounded-full"></div>
 
-            <div className="glass-panel p-6 rounded-xl w-full md:w-1/4 border-primary-500/50 shadow-[0_0_15px_rgba(59,130,246,0.3)]">
+            <div className="glass-panel p-6 rounded-xl w-full md:w-1/4">
               <Cpu className="w-8 h-8 text-primary-400 mx-auto mb-3" />
               <div className="font-semibold text-white">AI Inference Engine</div>
               <div className="text-xs text-slate-400 mt-1">Python, OpenCV, YOLO</div>
